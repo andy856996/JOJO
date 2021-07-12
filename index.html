@@ -1,0 +1,247 @@
+<!DOCTYPE HTML>
+<!--
+	Spectral by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>JOJO的奇妙冒險</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<script>
+		var i = 0;
+		function playmusic(){
+			if(i==0){
+				soundPlayer = new Audio("music.mp3");
+				soundPlayer.type = "audio/mpeg";
+				soundPlayer.play();
+				i=i+1;
+			}else{
+				soundPlayer.pause();
+				i=i-1;
+			}
+		}
+		var i =0;
+		function alert_picture(change,name){
+			if(i%2 ==0){
+				document.getElementById(change).src="JOJO_pict/worrier.jpg";
+				i++;
+			}else if(i%2 ==1){
+				document.getElementById(change).style.width="350px";
+				document.getElementById(change).src="JOJO_pict/gold_wind.jpg";
+				i++;
+			}
+			
+			document.getElementById(name).style.display="";
+		}
+		function stop_picture(k){
+			document.getElementById(k).style.display="none";
+		}
+		</script>
+		<style>
+		#audio { 
+			display: none; 
+		} 
+		.pic{width:360px; height:450px;overflow:hidden;}
+		.pic img{transform:scale(1,1);transition: all 0.3s ease-out;}
+		.pic img:hover{transform:scale(1.2,1.2);}
+		</style>
+	</head>
+	<body class="landing is-preload">
+		<!-- Page Wrapper -->
+			<div id="page-wrapper">
+
+				<!-- Header -->
+					<header id="header" class="alt">
+						<h1><a href="index.html">JOJO</a></h1>
+						<nav id="nav">
+							<ul>
+								<li class="special">
+									<a href="#menu" class="menuToggle"><span>Menu</span></a>
+									<div id="menu">
+										<ul>
+											<li><a href="JL670\JL670.html">迷因</a></li>
+											<li><a href="hanchen_younxung\JOJO_many.html">人物介紹</a></li>
+											<li><a href="zone\JOJO_respect.html">致敬之作品</a></li>
+										</ul>
+									</div>
+								</li>
+							</ul>
+						</nav>
+					</header>
+
+				<!-- Banner -->
+					<section id="banner">
+						<div class="inner">
+							<h2>JOJO的奇妙冒險</h2>
+							<p>JOJO是荒木飛呂彥於1987年開始連載的漫<br />
+							畫作品，是相當有年紀的作品，但現在仍然火<br />
+							紅，他的風格影響了現代許許多多的動畫作品<br />
+							，如深受小朋友喜愛的鬼滅之刃，就深受其影<br />
+							響，也有不少動畫、漫畫再一些橋段中致敬JOJO<br />
+							的風格。在國外也深受喜愛，也是<br />
+							<h3><strong>唯一一個有進駐過羅浮宮的動畫作品。</strong></h3><br />
+							也誕生了許多謎因、名台詞、名場面、名曲</p>
+							<!--<ul class="actions special">
+								<li><a href="#" class="button primary">Activate</a></li>
+							</ul> -->
+						</div>
+						<a href="#one" class="more scrolly">Learn More</a>
+					</section>
+
+				<!-- One -->
+					<section id="one" class="wrapper style1 special">
+						<div class="inner">
+							<header class="major">
+								<h2>故事大綱</h2>
+								<p>JOJO雖然是長篇連載漫畫，但他的主角卻有非常多位，<br />
+								原因是這個漫畫會在故事講完就直接切成另一個故事另一<br />
+								個視角，雖然故事本身有關聯，但直接看特定的某部，並<br />
+								不會影響觀看。</p>
+							</header>
+						</div>
+					</section>
+					
+					
+					<section id="three" class="wrapper style3 special">
+						<div class="inner">
+							<header class="major">
+								<h2>多部曲簡介</h2>
+								
+								<p>JOJO的部曲非常的多，這裡將各部簡單介紹</p>
+							</header>
+						</div>
+					</section>
+					
+				<!-- Two -->
+					<section id="two" class="wrapper alt style2">
+						<section class="spotlight">
+							<div class="image"><img src="hanchen_younxung/img/1.jpg" alt="" /></div><div class="content">
+								<h2>第一部 幻影血脈</h2>
+								<p>JOJO最初講述的是英國紳士喬納森 喬斯達(第一代JOJO，以下簡稱大喬)對抗擁有能把人變成吸血鬼的石鬼面的邪惡吸血鬼迪奧 布蘭度(以下簡稱DIO)的故事。
+      最後大喬把DIO的頭斬下，卻沒想到DIO沒死，在大喬準備與第一部女主快樂的搭船度蜜月的時候，只剩頭的DIO早埋伏在船上，後來以女主當人質，逼迫大喬交出自己的身體，
+      最後大喬死也要抱著DIO的頭，不讓DIO得逞，最後與DIO一起沉入大海。本身第一步是很老套的絕對的正派VS絕對的反派的故事，雖然故事本身很老套，但他的結局很特別，也開啟了後面的故事。</p>
+							</div>
+						</section>
+						
+						
+						<section class="spotlight">
+							<div class="image"><img src="hanchen_younxung/img/2.jpg" alt="" /></div><div class="content">
+								<h2>第二部 戰鬥潮流</h2>
+								<p>這部講述著大喬的孫子，喬瑟夫 喬斯達(以下簡稱二喬)對抗製造石鬼面的強大生物柱之男，這部的特色是主角實力不強，雖然對手近乎無敵，
+		  但二喬非常的聰明(狡猾)，個性上也是那種痞痞的形象，為達目的他可以做出穿女裝、逃跑等等完全不是英雄或者紳士的行為。
+           這部算是對主角做出了相當大的創新，不是那種傳統的英雄形象，另外這部蘊含許多的智鬥，也是相當大的突破。</p>
+							</div>
+						</section>
+						
+						
+						<section class="spotlight">
+							<div class="image"><img src="hanchen_younxung/img/3.jpg" alt="" /></div><div class="content">
+								<h2>第三部 星辰鬥士</h2>
+								<p>這部講述二喬的孫子，空條 承太郎(以下簡稱承太郎)為了拯救重病的母親，跑到埃及討伐一切的幕後黑手，也就是沉在海底但並沒有死的第一部大反派DIO。
+這部隊戰力系統做出了相當大的改變，讓替身系統成為JOJO日後的戰力系統，替身用白話點講就是讓背後的背後靈互毆戰鬥的一個東西，
+這個替身影響了後來相當多的動、漫畫作品。</p>
+							</div>
+						</section>
+						
+						
+						<section class="spotlight">
+							<div class="image"><img src="hanchen_younxung/img/4.jpg" alt="" /></div><div class="content">
+								<h2>第四部 不滅鑽石</h2>
+								<p>講述二喬的私生子，東方仗助(以下簡稱仗助)在一個小鎮發生的點滴，
+             最初是承太郎為了尋找能把人變替身使者的箭，在調查的過程中，漸漸發現小鎮的黑幕…
+             這不也算做了相當大的創新，首先它的地區侷限在一個小鎮中，格局上算是非常的小(上一部是從日本到埃及都有畫出來)
+             故事也比較日常一些，在整部JOJO裡是相當特殊的一部。</p>
+							</div>
+						</section>
+						
+						
+						<section class="spotlight">
+							<div class="image"><img src="hanchen_younxung/img/5.jpg" alt="" /></div><div class="content">
+								<h2>第五部 黃金之風</h2>
+								<p>講述DIO的兒子喬魯諾 喬巴拿於義大利發生的事，講述喬魯諾身在黑幫中卻不願意販賣毒品，
+		     而試圖以自己的力量推翻組織的老大並改變整個組織，
+		     這一部也算滿特別的，他是偏外傳性質，跟前面的故事關聯性不大。</p>
+							</div>
+						</section>
+						
+						
+					</section>
+
+				<!-- Three -->
+					<section id="three" class="wrapper style3 special">
+						<div class="inner">
+							<header class="major">
+								<h2>接下來要為各位介紹JOJO其他周邊</h2>
+							</header>
+							<ul class="features">
+								<li class="icon fa-paper-plane">
+									<h3>JOJO海報</h3>
+									<form>
+									<input type=button value="顯示" onclick="alert_picture('img1','div2');"><!--不能用""傳字串 只能用'' -->
+									<input type=button value="隱藏" onclick="stop_picture('div2');">
+									</form>
+									<div id="div2" style="display:none;">
+										<div class="pic">
+											<img id="img1" src="JOJO_pict/worrier.jpg"/>
+										</div>
+									</div>
+								</li>
+								<li class="icon solid fa-headphones-alt">
+									<h3>歐拉歐拉歐拉</h3>
+									<div id="div1" style="display:;">
+									<form>
+									<input type=button value="撥放" 
+										   onclick="playmusic();">
+									<input type=button value="停止" 
+									onclick="playmusic();">
+									</form>
+									</div>
+								</li>
+								
+							</ul>
+						</div>
+					</section>
+
+				<!-- CTA -->
+					<section id="cta" class="wrapper style4">
+						<div class="inner">
+							<header>
+								<h2>Thank for watch</h2>
+								<p>JOJO在許多動畫作品中是奇特的，進而跟其他東西相關聯</p>
+							</header>
+							<ul class="actions stacked">
+								<li><a href="JL670\JL670.html" class="button fit primary">迷因</a></li>
+								<li><a href="hanchen_younxung\JOJO_many.html" class="button fit primary">人物介紹</a></li>
+								<li><a href="zone\JOJO_respect.html" class="button fit primary">致敬之作品</a></li>
+							</ul>
+						</div>
+					</section>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<ul class="icons">
+							<li><h2>JOJO Netflix ---</h2></li>
+							<li><a href="https://www.netflix.com/tw/title/80179831" class="icon brands fa-dribbble"><span class="label">Dribbble</span></a></li>
+						</ul>
+						<ul class="copyright">
+							<li>&copy; Ding Ze An</li><li><a href="http://html5up.net">網頁程式設計期末報告</a></li><li>組員:丁澤安、張詠翔、蔡椿霳、劉冠希、洪禹堯</li>
+						</ul>
+					</footer>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
